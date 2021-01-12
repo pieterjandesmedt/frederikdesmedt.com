@@ -27,8 +27,8 @@ params:
   # Link custom assets relative to /static
   custom_css:
   custom_js:
-  - js/macy.js
-  - js/scripts.js
+  - /js/macy.js
+  - /js/scripts.js
 
   # Button texts
   learnmore: Meer &rarr;
