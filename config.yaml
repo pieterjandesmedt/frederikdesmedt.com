@@ -1,0 +1,87 @@
+# Site settings
+languageCode: en-us
+pluralizeListTitles: false
+title: Frederik De Smedt
+
+# Enter your tracking code to enable Google Analytics
+googleAnalytics: ""
+
+module:
+  imports:
+    # path: github.com/pieterjandesmedt/hugo-theme-frederikdesmedt
+    path: /Users/pieterjan/Sites/hugo-themes/frederikdesmedt
+
+
+params:
+  # You can use Markdown syntax for urls [text](//url.to/source)
+  # To create multi-line text in strings use the """example Text""" format
+  #
+  # All icons using Fontawesome's icon font. Look at fontawesome.io/icons
+  # for more icons. The icons are represented by their corresponding
+  # CSS class.
+
+  # Provide your metadata here.
+  name: Frederik De Smedt
+  description: Over the past 10 years he has worked for architecture offices and collaborated with artists in Belgium, Spain and Turkey. He is also an EASA construction workshops tutor
+
+  # Link custom assets relative to /static
+  custom_css:
+  custom_js:
+  - js/macy.js
+  - js/scripts.js
+
+  # Button texts
+  learnmore: Meer &rarr;
+
+  # 404 error customization
+  error404:
+    heading: Page couldn't be found
+    text: Please visit [this page](/)
+
+  # Navigation Section
+  navigation:
+    links:
+    - name: Bio
+      url: about/biography
+    - name: Curriculum Vitae
+      url: about/cv
+    - name: Contact
+      url: contact/form
+
+  # Tiles Section
+  tiles:
+    enable: true
+    # Display your showcases here.
+
+  # Section Type Two
+  two:
+    enable: false
+    title: About our bureau
+    subtitle: >
+      Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero.
+      Mauris aliquet magna magna sed nunc rhoncus pharetra.
+      Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
+      Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
+      Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
+    name: Bio &rarr;
+    url: about/biography
+
+
+  # Contact section
+  contact:
+    enable: true
+    buttonSend: Send
+    buttonClear: Clear
+    labelName: Name
+    labelEmail: Email Address
+    labelMessage: Message
+
+  # Footer section
+  footer:
+    enable: true
+    copyright: frederik de smedt
+
+    social:
+    - icon: fab fa-linkedin
+      url: https://www.linkedin.com/in/frederikdesmedt/
+      label: LinkedIn
