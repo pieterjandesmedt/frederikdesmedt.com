@@ -42,11 +42,11 @@ params:
   navigation:
     links:
     - name: Bio
-      url: about/biography
+      url: /about/biography
     - name: Curriculum Vitae
-      url: about/cv
+      url: /about/cv
     - name: Contact
-      url: contact/form
+      url: /contact/form
 
   # Tiles Section
   tiles:
@@ -64,7 +64,7 @@ params:
       Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero.
       Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.
     name: Bio &rarr;
-    url: about/biography
+    url: /about/biography
 
 
   # Contact section
