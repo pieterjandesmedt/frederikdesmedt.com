@@ -8,8 +8,8 @@ googleAnalytics: ""
 
 module:
   imports:
-    # path: github.com/pieterjandesmedt/hugo-theme-frederikdesmedt
-    path: /Users/pieterjan/Sites/hugo-themes/frederikdesmedt
+    path: github.com/pieterjandesmedt/hugo-theme-frederikdesmedt
+    # path: /Users/pieterjan/Sites/hugo-themes/frederikdesmedt
 
 
 params:
